@@ -1,0 +1,2 @@
+class LinkDoesNotExist(ValueError):
+    pass
