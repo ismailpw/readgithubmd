@@ -3,4 +3,15 @@ A python package to read markdown files on GitHub repositories(.md) and convert 
 
 > ## Small Documentation
 1. import readgithubmd
-  * Example: `rgm = ReadGithubMD("https://github.com/ismailpw/readgithubmd-python/blob/main/README.md")`
+  * Example: `from readgithubmd import ReadGithubMD`
+2. Create instance of ReadGithubMD
+  * Params: Link of the md-file on github
+  * Example: `rgm:ReadGithubMD = ReadGithubMD("https://github.com/ismailpw/readgithubmd-python/blob/main/README.md")`
+3. get_mdfile_html(function)
+  * Params: no
+  * returns the html-script of the md-file on github
+  * Example: `print(rgm.get_mdfile_html())`
+4. get_mdfile_md
+  * Params: no
+  * returns the md-script of the md-file on github
+  * Example `print(rgm.get_mdfile_md())`
