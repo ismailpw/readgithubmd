@@ -1,5 +1,5 @@
 # readgithubmd
-A python package to read markdown files on GitHub repositories(.md) and convert them into html or md.
+A python package to read markdown files on GitHub repositories(.md) and convert them into html-script(string) or md-script(string).
 
 > ## Small Documentation
 1. import readgithubmd
